@@ -1,0 +1,40 @@
+LOCUS       CDK08259                  10 aa            linear   BCT 02-JUN-2016
+DEFINITION  TPA: proteolysis tag peptide encoded by tmRNA Esche_coli_K12,
+            partial [Escherichia coli O104:H4 str. 01-09591].
+ACCESSION   CDK08259
+VERSION     CDK08259.1  GI:559119974
+DBLINK      BioProject: PRJEB4570
+DBSOURCE    accession HG786577.1
+KEYWORDS    Third Party Data; TPA.
+SOURCE      Escherichia coli O104:H4 str. 01-09591
+  ORGANISM  Escherichia coli O104:H4 str. 01-09591
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Gueneau de Novoa,P. and Williams,K.P.
+  TITLE     The tmRNA website: reductive evolution of tmRNA in plastids and
+            other endosymbionts
+  JOURNAL   Nucleic Acids Res. 32 (DATABASE ISSUE), D104-D108 (2004)
+   PUBMED   14681369
+REFERENCE   2  (residues 1 to 10)
+  CONSRTM   The tmRNA Website and RNAcentral
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-NOV-2013)
+COMMENT     Specialist DB   : The tmRNA Website
+            URL             : http://bioinformatics.sandia.gov/tmrna.
+FEATURES             Location/Qualifiers
+     source          1..10
+                     /organism="Escherichia coli O104:H4 str. 01-09591"
+                     /db_xref="taxon:1042803"
+     Protein         <1..10
+                     /product="proteolysis tag peptide encoded by tmRNA
+                     Esche_coli_K12"
+     CDS             1..10
+                     /gene="tmRNA Esche_coli_K12"
+                     /coded_by="HG786577.1:<90..122"
+                     /note="first codon is 'resume', not start"
+                     /transl_table=11
+                     /db_xref="UniProtKB/TrEMBL:V6C773"
+ORIGIN      
+        1 andenyalaa
+//
