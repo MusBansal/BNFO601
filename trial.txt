@@ -38,3 +38,94 @@ FEATURES             Location/Qualifiers
 ORIGIN      
         1 andenyalaa
 //
+
+LOCUS       EGR65295                 363 aa            linear   BCT 20-JUL-2011
+DEFINITION  3-isopropylmalate dehydrogenase [Escherichia coli O104:H4 str.
+            01-09591].
+ACCESSION   EGR65295
+VERSION     EGR65295.1  GI:340736247
+DBLINK      BioProject: PRJNA67931
+            BioSample: SAMN02470246
+DBSOURCE    accession AFPS01000001.1
+KEYWORDS    .
+SOURCE      Escherichia coli O104:H4 str. 01-09591
+  ORGANISM  Escherichia coli O104:H4 str. 01-09591
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 363)
+  AUTHORS   Mellmann,A., Harmsen,D., Cummings,C.A., Zentz,E.B., Leopold,S.R.,
+            Rico,A., Prior,K., Szczepanowski,R., Ji,Y., Zhang,W.,
+            McLaughlin,S.F., Henkhaus,J.K., Leopold,B., Bielaszewska,M.,
+            Prager,R., Brzoska,P.M., Moore,R.L., Guenther,S., Rothberg,J.M. and
+            Karch,H.
+  TITLE     Prospective Genomic Characterization of the German
+            Enterohemorrhagic Escherichia coli O104:H4 Outbreak by Rapid Next
+            Generation Sequencing Technology
+  JOURNAL   PLoS ONE 6 (7), E22751 (2011)
+   PUBMED   21799941
+REFERENCE   2  (residues 1 to 363)
+  AUTHORS   Cummings,C.A., Mellmann,A., Harmsen,D., Prior,K., Szczepanowski,R.,
+            Leopold,B., Leopold,S., Karch,H., Rico,A., Guenther,S.,
+            Greither,R., Myers,J., Cifuentes,F., Ji,Y., McLaughlin,S. and
+            Brzoska,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2011) Life Technologies, 850 Lincoln Centre
+            Drive, Foster City, CA 94404, USA
+COMMENT     Reads were mapped with TMAP against the publicly available E. coli
+            55989 chromosome (CU928145.2) and the derived consensus was split
+            into contigs at zero-coverage regions.  These contigs were used as
+            a 'backbone' for mapping of reads, followed by de novo assembly of
+            unmapped reads with the MIRA assembler (v 3.2.1).  A small number
+            of de novo and consensus contigs were merged using CAP3. The strain
+            is available from the German National Consulting Laboratory for
+            Hemolytic Uremic Syndrome (HUS) at the Institute of Hygiene,
+            University Hospital Muenster.
+            Annotation was added by the NCBI Prokaryotic Genomes Automatic
+            Annotation Pipeline Group. Information about the Pipeline can be
+            found here:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be
+            aware that the annotation is done automatically with little or no
+            manual curation.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: MIRA v. 3.2.1
+            Assembly Name         :: Ecoli.O104:H4.01-09591_1.0
+            Genome Coverage       :: 24x
+            Sequencing Technology :: Ion Torrent PGM
+            ##Genome-Assembly-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..363
+                     /organism="Escherichia coli O104:H4 str. 01-09591"
+                     /strain="01-09591"
+                     /serovar="O104:H4"
+                     /host="Homo sapiens"
+                     /culture_collection="HUSEC<DEU>:041"
+                     /db_xref="taxon:1042803"
+                     /country="Germany: Cologne"
+                     /collection_date="2001"
+     Protein         1..363
+                     /product="3-isopropylmalate dehydrogenase"
+                     /EC_number="1.1.1.85"
+     Region          3..362
+                     /region_name="PRK00772"
+                     /note="3-isopropylmalate dehydrogenase; Provisional"
+                     /db_xref="CDD:234832"
+     CDS             1..363
+                     /locus_tag="HUSEC41_00380"
+                     /coded_by="complement(AFPS01000001.1:81361..82452)"
+                     /inference="DESCRIPTION: similar to AA
+                     sequence:ProteinCluster:PRK00772"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:YP_003227177.1"
+                     /note="COG0473 Isocitrate/isopropylmalate dehydrogenase"
+                     /transl_table=11
+ORIGIN      
+        1 msknyhiavl pgdgigpevm tqalkvldav rnrfamritt shydvggaai dnhgqplppa
+       61 tvegceqada vlfgsvggpk wehlppdqqp ergallplrk hfklfsnlrp aklyqgleaf
+      121 cplradiaan gfdilcvrel tggiyfgqpk gregsgqyek afdtevyhrf eieriariaf
+      181 esarkrrhkv tsidkanvlq ssilwreivn eiateypdve lahmyidnat mqlikdpsqf
+      241 dvllcsnlfg dilsdecami tgsmgmlpsa slneqgfgly epaggsapdi agknianpia
+      301 qilslalllr ysldaddaac aierainral eegirtgdla rgaaavstde mgdiiaryva
+      361 egv
+//
